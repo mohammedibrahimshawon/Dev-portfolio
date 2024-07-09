@@ -12,6 +12,11 @@
 .text-primary{
     color:rgba(243, 34, 7, 0.933);
 }
+.header{
+    background-image: url('../images/developer.png'),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:top left,bottom right;
+}
 /* nav */
 nav{
     display: flex;
@@ -50,6 +55,30 @@ nav ul li{
 nav ul{
     display: flex;
     align-items: center;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
 
-    
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-content{
+    max-width: 580px;
+
+
+}
+
+.banner-gettings{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-profile-pic{
+    width: 580px;
+
+
 }
